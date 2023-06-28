@@ -1,7 +1,6 @@
-Temps d'exécution pour 2000 Etudiant : 0.013336 secondes
-Temps d'exécution pour 1000 Etudiant : 0.007705 secondes
-Temps d'exécution pour 1000 Etudiant : 0.007325 secondes
-Temps d'exécution pour 100 Etudiant : 0.000891 secondes
-Temps d'exécution pour 1000 Etudiant : 0.006806 secondes
-Temps d'exécution pour 50 Etudiant : 0.000412 secondes
-Temps d'exécution pour 10000 Etudiant : 0.074498 secondes
+Temps d'exécution pour l'insertion de 1000000 Etudiant : 6.539281 secondes
+Temps d'exécution de la recherche pour 1000000 Etudiant : 0.013618 secondes
+Temps d'exécution pour l'insertion de 10000 Etudiant : 0.072733 secondes
+Temps d'exécution de la recherche pour 10000 Etudiant : 0.000160 secondes
+Temps d'exécution pour l'insertion de 99999 Etudiant : 0.665150 secondes
+Temps d'exécution de la recherche pour 99999 Etudiant : 0.001354 secondes
