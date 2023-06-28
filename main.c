@@ -50,11 +50,6 @@ int main() {
         printf("Étudiant %d - Matricule: %s, Moyenne: %.2f\n", i + 1, resultats[i].nom, resultats[i].moyenne);
     }
 
-    
-
-
-    
-
     return 0;
 }
 
