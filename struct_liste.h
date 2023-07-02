@@ -2,6 +2,7 @@
 #define __Liste__
 
 // #include<stdbool.h>
+#include "struct_etd.h"
 typedef enum
 {
     false,

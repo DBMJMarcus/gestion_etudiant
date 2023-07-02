@@ -1,7 +1,10 @@
-Temps d'exécution pour 2000 Etudiant : 0.013336 secondes
-Temps d'exécution pour 1000 Etudiant : 0.007705 secondes
-Temps d'exécution pour 1000 Etudiant : 0.007325 secondes
-Temps d'exécution pour 100 Etudiant : 0.000891 secondes
-Temps d'exécution pour 1000 Etudiant : 0.006806 secondes
-Temps d'exécution pour 50 Etudiant : 0.000412 secondes
-Temps d'exécution pour 10000 Etudiant : 0.074498 secondes
+Partie  listes chaînées
+Temps d'insertion pour une liste de 1000000 Etudiants est : 0.095000 secondes
+Temps de recherche de 20 Etudiants est : 1.490000 secondes
+Temps de mise a jour de 10 Etudiants est : 0.184000 secondes
+Temps de suppression de 10 Etudiants est : 0.182000 secondes
+Partie table de hachage
+Temps d'insertion  de 1000000 Etudiants est : 70.474000 secondes
+Temps de recherche de 20 Etudiants est : 0.000000 secondes
+Temps de mise a jour de 10 Etudiants est : 0.000000 secondes
+Temps de suppression de 10 Etudiants est : 0.000000 secondes
