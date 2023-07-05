@@ -1,8 +1,11 @@
 
+
+
 Execution pour 1000 Etudiants 
 Partie Tableaux 
 Temps d'exécution pour l'insertion de 1000 Etudiant : 0.007112 secondes
 Temps d'exécution de la recherche pour 1000 Etudiant : 0.000021 secondes
+Temps d'exécution de la mise à jour de 1000 Etudiant : 0.000021 secondes
 Partie  listes chaînées
 Temps d'insertion pour une liste de 1000 Etudiants est : 0.000226 secondes
 Temps de recherche de 20 Etudiants est : 0.001151 secondes
@@ -18,6 +21,7 @@ Execution pour 5000 Etudiants
 Partie Tableaux 
 Temps d'exécution pour l'insertion de 5000 Etudiant : 0.037526 secondes
 Temps d'exécution de la recherche pour 5000 Etudiant : 0.000083 secondes
+Temps d'exécution de la mise à jour de 5000 Etudiant : 0.000157 secondes
 Partie  listes chaînées
 Temps d'insertion pour une liste de 5000 Etudiants est : 0.001525 secondes
 Temps de recherche de 20 Etudiants est : 0.007578 secondes
@@ -33,6 +37,7 @@ Execution pour 10000 Etudiants
 Partie Tableaux 
 Temps d'exécution pour l'insertion de 10000 Etudiant : 0.072189 secondes
 Temps d'exécution de la recherche pour 10000 Etudiant : 0.000147 secondes
+Temps d'exécution de la mise à jour de 10000 Etudiant : 0.000290 secondes
 Partie  listes chaînées
 Temps d'insertion pour une liste de 10000 Etudiants est : 0.002752 secondes
 Temps de recherche de 20 Etudiants est : 0.014821 secondes
@@ -48,6 +53,7 @@ Execution pour 50000 Etudiants
 Partie Tableaux 
 Temps d'exécution pour l'insertion de 50000 Etudiant : 0.352437 secondes
 Temps d'exécution de la recherche pour 50000 Etudiant : 0.000803 secondes
+Temps d'exécution de la mise à jour de 50000 Etudiant : 0.001232 secondes
 Partie  listes chaînées
 Temps d'insertion pour une liste de 50000 Etudiants est : 0.014700 secondes
 Temps de recherche de 20 Etudiants est : 0.080035 secondes
@@ -63,6 +69,8 @@ Execution pour 100000 Etudiants
 Partie Tableaux 
 Temps d'exécution pour l'insertion de 100000 Etudiant : 0.703661 secondes
 Temps d'exécution de la recherche pour 100000 Etudiant : 0.001458 secondes
+Temps d'exécution de la mise à jour de 100000 Etudiant : 0.002700 secondes
+
 Partie  listes chaînées
 Temps d'insertion pour une liste de 100000 Etudiants est : 0.023859 secondes
 Temps de recherche de 20 Etudiants est : 0.169986 secondes
@@ -78,6 +86,8 @@ Execution pour 500000 Etudiants
 Partie Tableaux 
 Temps d'exécution pour l'insertion de 500000 Etudiant : 3.317351 secondes
 Temps d'exécution de la recherche pour 500000 Etudiant : 0.006140 secondes
+Temps d'exécution de la mise à jour de 500000 Etudiant : 0.011903 secondes
+
 Partie  listes chaînées
 Temps d'insertion pour une liste de 500000 Etudiants est : 0.103369 secondes
 Temps de recherche de 20 Etudiants est : 0.740780 secondes
@@ -93,6 +103,7 @@ Execution pour 1000000 Etudiants
 Partie Tableaux 
 Temps d'exécution pour l'insertion de 1000000 Etudiant : 6.573664 secondes
 Temps d'exécution de la recherche pour 1000000 Etudiant : 0.013931 secondes
+Temps d'exécution de la mise à jour de 1000000 Etudiant : 0.030340 secondes
 Partie  listes chaînées
 Temps d'insertion pour une liste de 1000000 Etudiants est : 0.229147 secondes
 Temps de recherche de 20 Etudiants est : 1.498669 secondes
