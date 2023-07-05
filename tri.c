@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include "struct_etd.h"
+#include "tri.h"
 
 void tri_bulle(Etudiant *tab, int taille) {
     int i, j;
