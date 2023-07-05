@@ -57,3 +57,14 @@ Etudiant* rechercher_etudiants(Etudiant* tab_etd, int nbre_etd, int matricule_re
 
     return etudiants_recherches;
 }
+
+
+void mettre_a_jour_etudiants(Etudiant* tab_etd, int nbre_etd, int matricule_debut) {
+    int nbre_etd_maj = nbre_etd * 0.1; // 10% du nombre total d'étudiants
+
+    for (int i = 0; i < nbre_etd; i++) {
+        if (tab_etd[i].matricule >= matricule_debut && tab_etd[i].matricule < (matricule_debut + nbre_etd_maj)) {
+            strcat(tab_etd[i].nom, "MAJ");
+        }
+    }
+}

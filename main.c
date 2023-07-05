@@ -84,7 +84,9 @@ int main() {
     }*/
 
     free(etudiants_recherches);
+    
 
+    //liste chainée 
     Liste liste = nouvelle_liste();//initialisation de la liste chainée
 
     start = clock();
