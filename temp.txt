@@ -1,6 +1,35 @@
-Temps d'exécution pour l'insertion de 1000000 Etudiant : 6.539281 secondes
-Temps d'exécution de la recherche pour 1000000 Etudiant : 0.013618 secondes
-Temps d'exécution pour l'insertion de 10000 Etudiant : 0.072733 secondes
-Temps d'exécution de la recherche pour 10000 Etudiant : 0.000160 secondes
-Temps d'exécution pour l'insertion de 99999 Etudiant : 0.665150 secondes
-Temps d'exécution de la recherche pour 99999 Etudiant : 0.001354 secondes
+
+Pour N = 1000 
+Temps d'exécution pour l'insertion de 1000 Etudiant : 0.007708 secondes
+Temps d'exécution de la recherche pour 1000 Etudiant : 0.000021 secondes
+Temps d'exécution de la mise à jour de 1000 Etudiant : 0.000021 secondes
+
+Pour N = 5000 
+Temps d'exécution pour l'insertion de 5000 Etudiant : 0.036579 secondes
+Temps d'exécution de la recherche pour 5000 Etudiant : 0.000078 secondes
+Temps d'exécution de la mise à jour de 5000 Etudiant : 0.000157 secondes
+
+Pour N = 10000 
+Temps d'exécution pour l'insertion de 10000 Etudiant : 0.076840 secondes
+Temps d'exécution de la recherche pour 10000 Etudiant : 0.000137 secondes
+Temps d'exécution de la mise à jour de 10000 Etudiant : 0.000290 secondes
+
+Pour N = 50000 
+Temps d'exécution pour l'insertion de 50000 Etudiant : 0.350300 secondes
+Temps d'exécution de la recherche pour 50000 Etudiant : 0.000674 secondes
+Temps d'exécution de la mise à jour de 50000 Etudiant : 0.001232 secondes
+
+Pour N = 100000 
+Temps d'exécution pour l'insertion de 100000 Etudiant : 0.663599 secondes
+Temps d'exécution de la recherche pour 100000 Etudiant : 0.001408 secondes
+Temps d'exécution de la mise à jour de 100000 Etudiant : 0.002700 secondes
+
+Pour N = 500000 
+Temps d'exécution pour l'insertion de 500000 Etudiant : 3.270579 secondes
+Temps d'exécution de la recherche pour 500000 Etudiant : 0.006205 secondes
+Temps d'exécution de la mise à jour de 500000 Etudiant : 0.011903 secondes
+
+Pour N = 1000000 
+Temps d'exécution pour l'insertion de 1000000 Etudiant : 6.544650 secondes
+Temps d'exécution de la recherche pour 1000000 Etudiant : 0.013921 secondes
+Temps d'exécution de la mise à jour de 1000000 Etudiant : 0.030340 secondes
