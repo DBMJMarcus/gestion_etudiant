@@ -8,9 +8,18 @@
 int main()
 {
     // Initialiser le générateur de nombres aléatoires avec le temps actuel
-
+    srand(time(NULL));
+    int n;
+    FILE *file = fopen("temp.txt", "a");
     Etudiant *tableau_etudiant;
-    int nombre_etudiant = 1000000;
+    
+    int tab_valeur[] = {1000, 5000, 10000, 50000, 100000, 500000, 1000000};
+
+    for (int i = 0; i < 7; i++)
+    {
+        /* code */
+
+    int nombre_etudiant = tab_valeur[i];
     FILE *file = fopen("temp.txt", "a"); // Ouvre le fichier en mode ajout le fichier doit exister au préalable
 
     clock_t start, end;
@@ -66,5 +75,8 @@ int main()
     fprintf(file, "Temps de tri de %d Etudiant : %f secondes\n", nombre_etudiant, cpu_time_used);
     free(tableau_etudiant);
     fclose(file);
+    }
+    
+    
     return 0;
 }
