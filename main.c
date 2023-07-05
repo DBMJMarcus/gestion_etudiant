@@ -73,6 +73,27 @@ int main() {
         printf("Étudiant %d - Matricule: %s, Moyenne: %.2f\n", i+1, etudiants_recherches[i].nom, etudiants_recherches[i].moyenne);
     }
 
+     int N = n;
+    int matricule_debut = rand() % N; // Matricule aléatoire dans [0, N[
+
+    printf("Matricule de début : %d\n", matricule_debut);
+
+    start = clock(); // Enregistre le temps de début
+    
+    mettre_a_jour_etudiants(tableau_etudiant, n, matricule_debut);
+
+    end = clock(); // Enregistre le temps de fin
+
+    cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
+
+
+    if (file != NULL) {
+        fprintf(file, "Temps d'exécution de la mise à jour de %d Etudiant : %f secondes\n", n,cpu_time_used);
+        fclose(file); // Ferme le fichier
+    } else {
+        printf("Erreur lors de l'ouverture du fichier.\n");
+    }
+
     free(etudiants_recherches);
     free(tableau_etudiant);
 
