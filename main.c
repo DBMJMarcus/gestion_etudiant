@@ -6,7 +6,7 @@
 #include "struct_liste.h"
 #include "struct_hachage.h"
 #include "struct_tableau.h"
-
+#include "tri.h"
 
 int main() {
     // Initialiser le générateur de nombres aléatoires avec le temps actuel
