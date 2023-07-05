@@ -103,3 +103,66 @@ Temps d'insertion  de 1000000 Etudiants est : 247.025480 secondes
 Temps de recherche de 20 Etudiants est : 0.000010 secondes
 Temps de mise a jour de 10 Etudiants est : 0.000005 secondes
 Temps de suppression de 10 Etudiants est : 0.000004 secondes
+N = 1000 
+Partie tri bulle
+Temps de tri de 1000 Etudiant : 0.002000 secondes
+Partie tri insertion
+Temps de tri de 1000 Etudiant : 0.000000 secondes
+Partie tri selection
+Temps de tri de 1000 Etudiant : 0.000000 secondes
+Partie tri fusion
+Temps de tri de 1000 Etudiant : 0.000000 secondes
+N = 5000 
+Partie tri bulle
+Temps de tri de 5000 Etudiant : 0.114000 secondes
+Partie tri insertion
+Temps de tri de 5000 Etudiant : 0.000000 secondes
+Partie tri selection
+Temps de tri de 5000 Etudiant : 0.041000 secondes
+Partie tri fusion
+Temps de tri de 5000 Etudiant : 0.000000 secondes
+N = 10000 
+Partie tri bulle
+Temps de tri de 10000 Etudiant : 0.457000 secondes
+Partie tri insertion
+Temps de tri de 10000 Etudiant : 0.000000 secondes
+Partie tri selection
+Temps de tri de 10000 Etudiant : 0.182000 secondes
+Partie tri fusion
+Temps de tri de 10000 Etudiant : 0.007000 secondes
+N = 50000 
+Partie tri bulle
+Temps de tri de 50000 Etudiant : 12.895000 secondes
+Partie tri insertion
+Temps de tri de 50000 Etudiant : 0.000000 secondes
+Partie tri selection
+Temps de tri de 50000 Etudiant : 4.451000 secondes
+Partie tri fusion
+Temps de tri de 50000 Etudiant : 0.020000 secondes
+N = 100000 
+Partie tri bulle
+Temps de tri de 100000 Etudiant : 62.930000 secondes
+Partie tri insertion
+Temps de tri de 100000 Etudiant : 0.000000 secondes
+Partie tri selection
+Temps de tri de 100000 Etudiant : 21.145000 secondes
+Partie tri fusion
+Temps de tri de 100000 Etudiant : 0.056000 secondes
+N = 500000 
+Partie tri bulle
+Temps de tri de 500000 Etudiant : 1268.612000 secondes
+Partie tri insertion
+Temps de tri de 500000 Etudiant : 0.010000 secondes
+Partie tri selection
+Temps de tri de 500000 Etudiant : 423.288000 secondes
+Partie tri fusion
+Temps de tri de 500000 Etudiant : 0.157000 secondes
+N = 1000000 
+Partie tri bulle
+Temps de tri de 1000000 Etudiant : 5608.165000 secondes
+Partie tri insertion
+Temps de tri de 1000000 Etudiant : 0.016000 secondes
+Partie tri selection
+Temps de tri de 1000000 Etudiant : 2207.236000 secondes
+Partie tri fusion
+Temps de tri de 1000000 Etudiant : 0.383000 secondes

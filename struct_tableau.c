@@ -5,7 +5,7 @@
 #include "struct_etd.h"
 
 float generateRandomFloat(float x, float y) {
-    srand(time(NULL));
+    
     float randomValue;
     int intValue;
 
