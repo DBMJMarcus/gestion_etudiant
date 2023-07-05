@@ -1,20 +1,30 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "struct_tableau.h"
 #include <time.h>
-
+#include "struct_etd.h"
+#include "struct_liste.h"
+#include "struct_hachage.h"
+#include "struct_tableau.h"
 
 
 int main() {
     // Initialiser le générateur de nombres aléatoires avec le temps actuel
-    
+    srand(time(NULL));
     int n;
-
+    FILE *file = fopen("temp.txt", "a");
     Etudiant *tableau_etudiant;
-    printf("Entrez le nombre d'étudiant : ");
-    scanf("%d",&n);
-    tableau_etudiant = malloc(sizeof(Etudiant)*n);
+    
+    int tab_valeur[] = {1000, 5000, 10000, 50000, 100000, 500000, 1000000};
+
+    for (int i = 0; i < 7; i++)
+    {
+        /* code */
+        file = fopen("temp.txt", "a");
+        n = tab_valeur [i];
+        fprintf(file, "\nExecution pour %d Etudiants \n",n);
+
+        tableau_etudiant = malloc(sizeof(Etudiant)*n);
     
     clock_t start, end;
     double cpu_time_used;
@@ -30,12 +40,12 @@ int main() {
 
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
     
-    FILE *file = fopen("temp.txt", "a"); // Ouvre le fichier en mode ajout le fichier doit exister au préalable
-    
+     // Ouvre le fichier en mode ajout le fichier doit exister au préalable
+    fprintf(file, "Partie Tableaux \n");
     if (file != NULL) {
         fprintf(file, "Temps d'exécution pour l'insertion de %d Etudiant : %f secondes\n", n,cpu_time_used);
         fclose(file); // Ferme le fichier
-        printf("Le temps d'exécution a été enregistré dans le fichier 'temp.txt'.\n");
+        //printf("Le temps d'exécution a été enregistré dans le fichier 'temp.txt'.\n");
     } else {
         printf("Erreur lors de l'ouverture du fichier.\n");
     }
@@ -43,7 +53,7 @@ int main() {
     int N = n;
     int matricule_recherche = rand() % (4 * N + 1) - (2 * N); // Matricule aléatoire dans [-2N; 2N]
 
-    printf("Matricule recherché : %d\n", matricule_recherche);
+   // printf("Matricule recherché : %d\n", matricule_recherche);
 
     int nbre_etd_recherches;
    
@@ -63,24 +73,18 @@ int main() {
     if (file != NULL) {
         fprintf(file, "Temps d'exécution de la recherche pour %d Etudiant : %f secondes\n", n,cpu_time_used);
         fclose(file); // Ferme le fichier
-        printf("Le temps d'exécution de la recherche a été enregistré dans le fichier 'temp.txt'.\n");
+       // printf("Le temps d'exécution de la recherche a été enregistré dans le fichier 'temp.txt'.\n");
     } else {
         printf("Erreur lors de l'ouverture du fichier.\n");
     }
 
-     printf("Nombre d'étudiants trouvés : %d\n", nbre_etd_recherches);
-    for (int i = 0; i < nbre_etd_recherches; i++) {
+     //printf("Nombre d'étudiants trouvés : %d\n", nbre_etd_recherches);
+    /*for (int i = 0; i < nbre_etd_recherches; i++) {
         printf("Étudiant %d - Matricule: %s, Moyenne: %.2f\n", i+1, etudiants_recherches[i].nom, etudiants_recherches[i].moyenne);
-    }
+    }*/
 
     free(etudiants_recherches);
-    free(tableau_etudiant);
 
-    Etudiant *tableau_etudiant;
-    printf("Entrez le nombre d'etudiant : ");
-    scanf("%d", &n);
-    tableau_etudiant = malloc(sizeof(Etudiant) * n);
-    insertion_tableau(tableau_etudiant,n);
     Liste liste = nouvelle_liste();//initialisation de la liste chainée
 
     start = clock();
@@ -91,8 +95,8 @@ int main() {
 
     cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
 
-    FILE *file = fopen("temp.txt", "a"); // Ouvre le fichier en mode ajout le fichier doit exister au préalable
-
+    
+    file = fopen("temp.txt", "a");
     if (file != NULL)
     {
         fprintf(file, "Partie  listes chaînées\n");
@@ -102,7 +106,7 @@ int main() {
     {
         printf("Erreur lors de l'ouverture du fichier.\n");
     }
-
+     
     // calcule du temps de recherche dans la liste
     start = clock();
 
@@ -186,6 +190,9 @@ int main() {
     free(table_hachage);
     free(tableau_etudiant);
     fclose(file);
+    }
+    
+    
 
     return 0;
 }

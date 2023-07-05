@@ -1,10 +1,105 @@
+
+Execution pour 1000 Etudiants 
+Partie Tableaux 
+Temps d'exécution pour l'insertion de 1000 Etudiant : 0.007112 secondes
+Temps d'exécution de la recherche pour 1000 Etudiant : 0.000021 secondes
 Partie  listes chaînées
-Temps d'insertion pour une liste de 15000 Etudiants est : 0.003335 secondes
-Temps de recherche de 20 Etudiants est : 0.019201 secondes
-Temps de mise a jour de 10 Etudiants est : 0.002247 secondes
-Temps de suppression de 10 Etudiants est : 0.002267 secondes
+Temps d'insertion pour une liste de 1000 Etudiants est : 0.000226 secondes
+Temps de recherche de 20 Etudiants est : 0.001151 secondes
+Temps de mise a jour de 10 Etudiants est : 0.000153 secondes
+Temps de suppression de 10 Etudiants est : 0.000145 secondes
 Partie table de hachage
-Temps d'insertion  de 15000 Etudiants est : 0.053415 secondes
-Temps de recherche de 20 Etudiants est : 0.000004 secondes
+Temps d'insertion  de 1000 Etudiants est : 0.000350 secondes
+Temps de recherche de 20 Etudiants est : 0.000003 secondes
 Temps de mise a jour de 10 Etudiants est : 0.000005 secondes
+Temps de suppression de 10 Etudiants est : 0.000004 secondes
+
+Execution pour 5000 Etudiants 
+Partie Tableaux 
+Temps d'exécution pour l'insertion de 5000 Etudiant : 0.037526 secondes
+Temps d'exécution de la recherche pour 5000 Etudiant : 0.000083 secondes
+Partie  listes chaînées
+Temps d'insertion pour une liste de 5000 Etudiants est : 0.001525 secondes
+Temps de recherche de 20 Etudiants est : 0.007578 secondes
+Temps de mise a jour de 10 Etudiants est : 0.000852 secondes
+Temps de suppression de 10 Etudiants est : 0.000868 secondes
+Partie table de hachage
+Temps d'insertion  de 5000 Etudiants est : 0.008372 secondes
+Temps de recherche de 20 Etudiants est : 0.000006 secondes
+Temps de mise a jour de 10 Etudiants est : 0.000006 secondes
+Temps de suppression de 10 Etudiants est : 0.000004 secondes
+
+Execution pour 10000 Etudiants 
+Partie Tableaux 
+Temps d'exécution pour l'insertion de 10000 Etudiant : 0.072189 secondes
+Temps d'exécution de la recherche pour 10000 Etudiant : 0.000147 secondes
+Partie  listes chaînées
+Temps d'insertion pour une liste de 10000 Etudiants est : 0.002752 secondes
+Temps de recherche de 20 Etudiants est : 0.014821 secondes
+Temps de mise a jour de 10 Etudiants est : 0.001707 secondes
+Temps de suppression de 10 Etudiants est : 0.001654 secondes
+Partie table de hachage
+Temps d'insertion  de 10000 Etudiants est : 0.026919 secondes
+Temps de recherche de 20 Etudiants est : 0.000008 secondes
+Temps de mise a jour de 10 Etudiants est : 0.000008 secondes
+Temps de suppression de 10 Etudiants est : 0.000005 secondes
+
+Execution pour 50000 Etudiants 
+Partie Tableaux 
+Temps d'exécution pour l'insertion de 50000 Etudiant : 0.352437 secondes
+Temps d'exécution de la recherche pour 50000 Etudiant : 0.000803 secondes
+Partie  listes chaînées
+Temps d'insertion pour une liste de 50000 Etudiants est : 0.014700 secondes
+Temps de recherche de 20 Etudiants est : 0.080035 secondes
+Temps de mise a jour de 10 Etudiants est : 0.009872 secondes
+Temps de suppression de 10 Etudiants est : 0.009519 secondes
+Partie table de hachage
+Temps d'insertion  de 50000 Etudiants est : 0.755512 secondes
+Temps de recherche de 20 Etudiants est : 0.000010 secondes
+Temps de mise a jour de 10 Etudiants est : 0.000006 secondes
+Temps de suppression de 10 Etudiants est : 0.000005 secondes
+
+Execution pour 100000 Etudiants 
+Partie Tableaux 
+Temps d'exécution pour l'insertion de 100000 Etudiant : 0.703661 secondes
+Temps d'exécution de la recherche pour 100000 Etudiant : 0.001458 secondes
+Partie  listes chaînées
+Temps d'insertion pour une liste de 100000 Etudiants est : 0.023859 secondes
+Temps de recherche de 20 Etudiants est : 0.169986 secondes
+Temps de mise a jour de 10 Etudiants est : 0.022297 secondes
+Temps de suppression de 10 Etudiants est : 0.020572 secondes
+Partie table de hachage
+Temps d'insertion  de 100000 Etudiants est : 2.504215 secondes
+Temps de recherche de 20 Etudiants est : 0.000005 secondes
+Temps de mise a jour de 10 Etudiants est : 0.000004 secondes
 Temps de suppression de 10 Etudiants est : 0.000003 secondes
+
+Execution pour 500000 Etudiants 
+Partie Tableaux 
+Temps d'exécution pour l'insertion de 500000 Etudiant : 3.317351 secondes
+Temps d'exécution de la recherche pour 500000 Etudiant : 0.006140 secondes
+Partie  listes chaînées
+Temps d'insertion pour une liste de 500000 Etudiants est : 0.103369 secondes
+Temps de recherche de 20 Etudiants est : 0.740780 secondes
+Temps de mise a jour de 10 Etudiants est : 0.094767 secondes
+Temps de suppression de 10 Etudiants est : 0.089977 secondes
+Partie table de hachage
+Temps d'insertion  de 500000 Etudiants est : 59.847316 secondes
+Temps de recherche de 20 Etudiants est : 0.000005 secondes
+Temps de mise a jour de 10 Etudiants est : 0.000005 secondes
+Temps de suppression de 10 Etudiants est : 0.000004 secondes
+
+Execution pour 1000000 Etudiants 
+Partie Tableaux 
+Temps d'exécution pour l'insertion de 1000000 Etudiant : 6.573664 secondes
+Temps d'exécution de la recherche pour 1000000 Etudiant : 0.013931 secondes
+Partie  listes chaînées
+Temps d'insertion pour une liste de 1000000 Etudiants est : 0.229147 secondes
+Temps de recherche de 20 Etudiants est : 1.498669 secondes
+Temps de mise a jour de 10 Etudiants est : 0.193615 secondes
+Temps de suppression de 10 Etudiants est : 0.185943 secondes
+Partie table de hachage
+Temps d'insertion  de 1000000 Etudiants est : 247.025480 secondes
+Temps de recherche de 20 Etudiants est : 0.000010 secondes
+Temps de mise a jour de 10 Etudiants est : 0.000005 secondes
+Temps de suppression de 10 Etudiants est : 0.000004 secondes

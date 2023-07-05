@@ -7,6 +7,7 @@
 // creation de la liste
 Liste nouvelle_liste(void)
 {
+    
     return NULL;
 }
 
