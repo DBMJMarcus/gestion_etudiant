@@ -39,32 +39,21 @@ Etudiant *insertion_tableau(Etudiant *tab_etd, int nbre_etd) {
     return tab_etd;
 }
 
-Etudiant *rechercher_etudiants_tableau(Etudiant *tab_etd, int nbre_etd, int mat) {
-    int m = nbre_etd * 0.2; // Calcul de M = 20%N
-    int debut = mat - 2 * nbre_etd;
-    int fin = mat + 2 * nbre_etd;
+Etudiant* rechercher_etudiants(Etudiant* tab_etd, int nbre_etd, int matricule_recherche, int* nbre_etd_recherches) {
+    int nbre_etd_recherches_max = nbre_etd * 0.2; // 20% du nombre total d'étudiants
+    Etudiant* etudiants_recherches = malloc(nbre_etd_recherches_max * sizeof(Etudiant));
+    *nbre_etd_recherches = 0;
 
-    // Vérification des bornes
-    if (debut < 0) debut = 0;
-    if (fin >= nbre_etd) fin = nbre_etd - 1;
+    for (int i = 0; i < nbre_etd; i++) {
+        if (tab_etd[i].matricule == matricule_recherche) {
+            etudiants_recherches[*nbre_etd_recherches] = tab_etd[i];
+            (*nbre_etd_recherches)++;
 
-    Etudiant *resultat = malloc(m * sizeof(Etudiant));
-    int index_resultat = 0;
-
-    for (int i = debut; i <= fin; i++) {
-        if (tab_etd[i].matricule == mat) {
-            resultat[index_resultat] = tab_etd[i];
-            index_resultat++;
-
-            if (index_resultat >= m) {
-                // On a trouvé tous les M étudiants recherchés, on quitte la boucle
-                break;
+            if (*nbre_etd_recherches == nbre_etd_recherches_max) {
+                break; // On a trouvé le nombre maximal d'étudiants recherchés, on arrête la recherche
             }
         }
     }
 
-    // Redimensionnement du tableau de résultats
-    //resultat = realloc(resultat, index_resultat * sizeof(Etudiant));
-
-    return resultat;
+    return etudiants_recherches;
 }

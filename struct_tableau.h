@@ -4,7 +4,8 @@
 
 Etudiant *insertion_tableau(Etudiant *tab_etd, int nbre_etd);
 float generateRandomFloat(float x, float y);
-Etudiant *rechercher_etudiants_tableau(Etudiant *tab_etd, int nbre_etd, int mat);
+Etudiant* rechercher_etudiants(Etudiant* tab_etd, int nbre_etd, int matricule_recherche, int* nbre_etd_recherches);
+
 
 
 
