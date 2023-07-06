@@ -179,11 +179,21 @@ Temps de tri de 1000000 Etudiant : 2207.236000 secondes
 Partie tri fusion
 Temps de tri de 1000000 Etudiant : 0.383000 secondes
 
+
 RECHERCHE STANDART  
 Temps de Recherche pour N = 1000 Etudiant : 0.000005 secondes
-Temps de Recherche pour N = 5000 Etudiant : 0.000005 secondes
+Temps de Recherche pour N = 5000 Etudiant : 0.000007 secondes
 Temps de Recherche pour N = 10000 Etudiant : 0.000005 secondes
 Temps de Recherche pour N = 50000 Etudiant : 0.000005 secondes
-Temps de Recherche pour N = 100000 Etudiant : 0.000005 secondes
+Temps de Recherche pour N = 100000 Etudiant : 0.000004 secondes
+Temps de Recherche pour N = 500000 Etudiant : 0.000006 secondes
+Temps de Recherche pour N = 1000000 Etudiant : 0.000004 secondes
+
+RECHERCHE DYCHOTOMIQUE  
+Temps de Recherche pour N = 1000 Etudiant : 0.000003 secondes
+Temps de Recherche pour N = 5000 Etudiant : 0.000004 secondes
+Temps de Recherche pour N = 10000 Etudiant : 0.000003 secondes
+Temps de Recherche pour N = 50000 Etudiant : 0.000004 secondes
+Temps de Recherche pour N = 100000 Etudiant : 0.000004 secondes
 Temps de Recherche pour N = 500000 Etudiant : 0.000005 secondes
 Temps de Recherche pour N = 1000000 Etudiant : 0.000005 secondes
